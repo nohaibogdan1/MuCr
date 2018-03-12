@@ -1,0 +1,50 @@
+/* set some basic style 
+   and reformat the browser's style settings*/
+
+body {
+	margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#left-first-menu {
+
+}
+
+#left-second-menu {
+
+}
+
+#top-bar {
+
+}
+
+#search-bar {
+
+}
+
+#sort-items-menu {
+
+}
+
+#right-menu {
+
+}
+
+#content-container {
+
+}
+
+#filters-container {
+
+}
+
+#items-container {
+	
+}
