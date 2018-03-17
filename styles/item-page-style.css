@@ -8,8 +8,10 @@ html {
 
 body {
 	height: auto;
-	width: 100%;
+	width: 95%;
 	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
     border: 0;
     background: red;
@@ -100,7 +102,7 @@ li{
 
 		background: #f4b8a6;
 		order: 1;
-		flex-grow: 4;
+		flex-grow: 2.5;
 		min-width: 300px;
 
 		display: flex;
@@ -156,9 +158,20 @@ li{
 			background: #d9fcb5;
 			flex-grow: 1;
 			order: 2;
+			margin-top: 20px;
 		}
 
+
+		 	#tracks-container h2 {
+		 		margin-bottom: 10px;
+		 	}
+
+		 	#tracks-container li {
+		 		margin-top: 5px;
+		 	}
+
 		#recommandations-container {
+			margin-top: 20px;
 			background: #a1f94d;
 			flex-grow: 1;
 			order: 3;
