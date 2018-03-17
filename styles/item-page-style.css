@@ -27,12 +27,11 @@ a {
 
 #top-bar {
 	background: #ef9bda;
-	height: 8%;
+	height: 60px;
 	display: flex;
 	flex-grow: 0;
 	flex-direction: row;
 	min-width: 500px;
-	min-height: 70px;
 }
 
   #app-icon {
@@ -72,6 +71,7 @@ a {
 
 	display: flex;
 	flex-direction: row;
+	min-width: 500px;
 }
 
 	#item-details-container {
@@ -79,13 +79,24 @@ a {
 		background: #f4b8a6;
 		order: 1;
 		flex-grow: 4;
+		min-width: 300px;
 	}
+
+	
+
+
+
+
+
+	
 
 	#item-user-container {
 		background: #f4d7a6;
 
 		flex-grow: 1;
 		order: 2;
+		min-width: 200px;
 
 	}
+
 
