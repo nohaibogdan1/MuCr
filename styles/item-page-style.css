@@ -80,15 +80,36 @@ a {
 		order: 1;
 		flex-grow: 4;
 		min-width: 300px;
+
+		display: flex;
+
+		flex-direction: column;
+
 	}
 
-	
+		#about-item {
+			background: #c8dbb6;
+			flex-grow: 1;
+			order: 1;
+		}
+
+		#tracks-container {
+			background: #d9fcb5;
+			flex-grow: 1;
+			order: 2;
+		}
+
+		#recommandations-container {
+			background: #a1f94d;
+			flex-grow: 1;
+			order: 3;
+		}
 
 
 
 
 
-	
+
 
 	#item-user-container {
 		background: #f4d7a6;
