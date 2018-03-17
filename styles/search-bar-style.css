@@ -1,21 +1,26 @@
-*{
+/**{
 box-sizing:border-box;
 }
 body{
 background:#f0f0f0;
-}
+}*/
 form{
-width:100%;
-margin-left:150px;
-margin-top:50px;
+/*width:100%;*/
+/*margin-left:150px;*/
+/*margin-top:50px;*/
+  display: flex;
+  flex-direction: row; /* puts elements horizontally */
 }
 input[type=text]{
-width:80%;
+/*width:80%;*/
 padding:15px;
 border:none;
 font-size:18px;
 font-family:sans-serif;
 border-radius:5px 0 0 25px;
+
+flex-grow: 3;
+order: 1;
 
 }
 input[type=submit]{
@@ -27,7 +32,9 @@ background:blue;
 color:white;
 border-radius:0 15px 15px 0;
 cursor:pointer;
-position:absolute;
+/*position:absolute; */
+flex-grow: 1;
+order: 2;
 }
 @media screen and (max-width:400px){
 
