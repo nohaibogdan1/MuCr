@@ -110,6 +110,7 @@ li{
 
 
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 	#item-details-container {
@@ -204,7 +205,78 @@ li{
 			flex-grow: 1;
 			order: 3;
 			padding: 10px 10px 10px 10px;
+
+			display: flex;
+			flex-direction: column;
 		}
+
+			#recommandations-container h2 {
+				flex-grow: 1;
+				margin-bottom: 10px;
+			}
+
+			#recommended-items-container {
+				flex-grow: 2;
+				display: flex;
+				height: 250px;
+
+			}
+			
+				#recommended-items-container ul{
+					flex-grow: 1;
+					margin-left: 15px;
+					margin-right: 15px;
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-start;
+				}
+
+					.recommended-item {
+						display: flex;
+						width: 200px;
+						flex-direction: column;
+						/*height: 100%;*/
+						/*flex-grow: 1;*/
+						
+						margin-right: 20px;
+						border-bottom: none;
+					}
+
+						.cover-container {
+							flex-grow: 2;
+							text-align: center;
+							width: 150px;
+						}
+
+						.item-name {
+							flex-grow: 1;
+							font-size: 1em;
+
+						}
+
+						.artist-name {
+							flex-grow: 1;
+							font-size: 0.8em;
+						}
+
+
+
+
+
+				#recommended-items-container>div:first-child{
+					text-align: left;
+					font-size: 5em;
+					color: rgba(0,0,0,0.4);
+					margin: auto; /*centers vertically*/
+				}
+
+				#recommended-items-container>div:last-child{
+					text-align: right;
+					font-size: 5em;
+					color: rgba(0,0,0,0.4);
+					margin: auto;
+				}
+
 
 
 
