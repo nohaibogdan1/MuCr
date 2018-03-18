@@ -170,6 +170,26 @@ li{
 		 		margin-top: 5px;
 		 	}
 
+		 	.track-item {
+		 		display: flex;
+		 		flex-direction: row;
+		 	}
+
+			 	.track-name {
+			 		flex-grow: 1;
+			 	}
+
+			 	.track-item {
+			 		/*flex-grow: 1;*/
+			 	}
+
+
+
+
+		#other-versions-container {
+			order: 3;
+		}
+
 		#recommandations-container {
 			margin-top: 20px;
 			background: #a1f94d;
