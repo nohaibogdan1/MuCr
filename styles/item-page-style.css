@@ -1,3 +1,4 @@
+
 /* set some basic style 
    and reformat the browser's style settings*/
 
@@ -14,9 +15,12 @@ body {
 	margin-right: auto;
 	padding: 0;
     border: 0;
-    background: red;
+    background: rgb(241, 103, 103);
     display: flex;
     flex-direction: column;
+
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 a {
@@ -32,7 +36,11 @@ img {
 header, h1, h2, h3, h4, h5, h6, ul{
 	margin: 0;
 	padding: 0;
+	font-family: 'Eczar', serif;
 }
+
+
+
 
 span {
 	margin-top: 15px;
@@ -41,13 +49,20 @@ span {
 
 li{
 	list-style-type: none;
+	border-bottom: solid;
+	border-color: rgba( 0,0,0,0.2);
+	border-width: 0.5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+
+	font-family: 'Work Sans', sans-serif;
+
 }
 
 
 
 
 #top-bar {
-	background: #ef9bda;
 	height: 60px;
 	display: flex;
 	flex-grow: 0;
@@ -87,7 +102,6 @@ li{
 
 
 #container {
-	background: #6a2e58;
 	flex-grow: 1;
 
 	display: flex;
@@ -99,8 +113,6 @@ li{
 }
 
 	#item-details-container {
-
-		background: #f4b8a6;
 		order: 1;
 		flex-grow: 2.5;
 		min-width: 300px;
@@ -113,20 +125,19 @@ li{
 	}
 
 		#about-item {
-			background: #c8dbb6;
 			flex-grow: 1;
 			order: 1;
 			display: flex;
 			flex-direction: row;
 			min-height: 200px;
 			height: auto;
+			padding: 10px 10px 10px 10px;
 		}
 
 			#cover {
 				order: 1;
 				height: 200px;
 				width: 300px;
-				background: #25dd28;
 
 				text-align: center; /*center the picture*/
 			}
@@ -134,7 +145,6 @@ li{
 
 			#details {
 				order: 2;
-				background: #00a502;
 				flex-grow: 1;
 
 				padding-left: 20px;
@@ -145,20 +155,17 @@ li{
 					margin-right: 10px;
 					font-size: 1.05em;
 				}
-				#details li {
-					margin-top: 5px;
-					margin-bottom: 5px;
-				}
+				
 				#details ul {
 					margin-top: 10px;
 				}
 
 
 		#tracks-container {
-			background: #d9fcb5;
 			flex-grow: 1;
 			order: 2;
-			margin-top: 20px;
+			margin-top: 10px;
+			padding: 10px 10px 10px 10px;
 		}
 
 
@@ -188,13 +195,15 @@ li{
 
 		#other-versions-container {
 			order: 3;
+			padding: 10px 10px 10px 10px;
+			margin-top: 10px;
 		}
 
 		#recommandations-container {
-			margin-top: 20px;
-			background: #a1f94d;
+			margin-top: 10px;
 			flex-grow: 1;
 			order: 3;
+			padding: 10px 10px 10px 10px;
 		}
 
 
@@ -204,11 +213,11 @@ li{
 
 
 	#item-user-container {
-		background: #f4d7a6;
-
 		flex-grow: 1;
 		order: 2;
 		min-width: 200px;
+		margin-left: 10px;
+	    padding: 10px 10px 10px 10px;
 
 	}
 
