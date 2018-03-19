@@ -3,53 +3,87 @@
 <head>
 	<title>Music Collector</title>
 	<link rel="stylesheet" href="../styles/main-style.css"/>
-	<link rel="stylesheet" href="../styles/user-page-style.css"/>
+
+	<link rel="stylesheet" href="../styles/colors-fonts.css"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Eczar|Work+Sans" rel="stylesheet">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<div id="left-menu">
-		<div id="selected-filters-container"> Here is filters-container</div>
-		<div id="filters-container">Here we will have all filters
-			<ul id="filters-list">
-				<li class="filter">
-					<ul class="elements-list">
-						<li class="filter-element">
-						</li>
-				    </ul>
-			    </li>
-				<li class="filter"></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
 
-	</div>
-	<div id="top-bar">
-		<div id="search-container">
-			<div id="search-bar">Here is search bar
+	<div id="vertical-container">
+
+		<header id="top-bar">
+			<div id="app-icon"></div>
+			<div id="search-container">
+				<div id="search-bar">Here is search bar</div>
+				<div id="right-menu-button">Here is right-menu-button</div>
+			</div>		
+
+			
+		</header>
+
+
+		<div id="horizontal-container" >
+			<div id="left-menu">
+				<div id="selected-filters-container"> Here is filters-container</div>
+				<div id="filters-container">Here we will have all filters
+					<ul id="filters-list">
+						<li class="filter">
+							<ul class="elements-list">
+								<li class="filter-element">
+								</li>
+						    </ul>
+					    </li>
+						<li class="filter"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
 
 			</div>
-			<div id="right-menu-button">Here is right-menu-button</div>
-		</div>		
 
-		<div id="sort-filter-container">
-			<div id="sort-items-menu-button">Here is sort-items-button</div>
+
+
+			<div id="content-container">
+					<div id="sort-filter-container">
+						<div id="sort-items-menu-button">Here is sort-items-button</div>
+					</div>
+					<div id="items-container"></div>
+			</div>
 		</div>
+
+
+		<footer>
+			
+		</footer>
+
+
+
+
 	</div>
+	
+
+	
+	
 
 	<div id="right-menu"></div>  <!--This doesn't appear on the screen automatically-->
 	<div id="sort-items-menu"></div>  <!--This doesn't appear on the screen automatically-->
 
-	<div id="content-container">
-		<div id="items-container"></div>
-	</div>
 
-	
-	<div id="manager-collection-menu"></div>
+
+
 	
 	
 	
 
 
+
+
+<script src="../js-scripts/main-jsscript.js"></script>
 </body>
 </html>
