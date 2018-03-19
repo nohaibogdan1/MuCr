@@ -25,7 +25,7 @@
 
 
 
-#about-item , #tracks-container, #other-versions-container, #recommandations-container, #item-user-container{
+#about-item , footer, #tracks-container, #other-versions-container, #recommandations-container, #item-user-container{
 	background: rgba(201, 232, 232,1);
 }
 
