@@ -1,0 +1,39 @@
+/*.primary-color {
+	background: rgba(241, 103, 103, 1);
+}
+
+.secondary-color-1 {
+	background: rgba(201, 232, 232,1);
+
+}
+
+.secondary-color-2 {
+	background: rgba( 241, 195, 103,1);
+}
+
+
+.complement-color {
+	background: rgba( 84, 65, 45,1);
+}
+
+.secondary-color-3 {
+	background: rgba( 255,255,255,0.4);
+}*/
+
+
+
+
+
+
+#about-item , footer, #tracks-container, #other-versions-container, #recommandations-container, #item-user-container{
+	background: rgba(201, 232, 232,1);
+}
+
+#horizontal-container {
+	background: rgba( 255,255,255,0.4);
+}
+
+#right-menu-button {
+	background: rgba( 241, 195, 103,1);
+}
+
