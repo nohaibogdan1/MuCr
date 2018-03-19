@@ -29,6 +29,18 @@ a {
 }
 
 
+#about-item , footer, #tracks-container, #other-versions-container, #recommandations-container, #item-user-container{
+	background: rgba(201, 232, 232,1);
+}
+
+#horizontal-container {
+	background: rgba( 255,255,255,0.4);
+}
+
+#right-menu-button {
+	background: rgba( 241, 195, 103,1);
+}
+
 
 
 
