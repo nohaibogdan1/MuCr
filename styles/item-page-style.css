@@ -59,6 +59,15 @@ li{
 
 }
 
+button {
+	 background: rgba( 241, 195, 103,1);
+	 border-style: none;
+	 font-family: 'Work Sans', sans-serif;
+}
+button:focus,
+button:active{
+	outline:none;
+}
 
 
 
@@ -290,7 +299,15 @@ li{
 		min-width: 200px;
 		margin-left: 10px;
 	    padding: 10px 10px 10px 10px;
+	    width:30%;
+	    max-width: 400px;
 
 	}
+
+	#item-user-container button{
+		font-size: 1em;
+
+	}
+
 
 
