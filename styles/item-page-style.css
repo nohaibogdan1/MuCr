@@ -107,6 +107,56 @@ button:active{
 		min-width: 200px;
     }
 
+
+form{
+  display: flex;
+  flex-direction: row; 
+}
+input[type=text]{
+padding:15px;
+border:none;
+font-size:18px;
+font-family:sans-serif;
+border-radius:5px 0 0 25px;
+
+flex-grow: 3;
+order: 1;
+
+}
+input[type=submit]{
+padding:15px;
+border:none;
+font-size:18px;
+font-family:sans-serif;
+background:blue;
+color:white;
+border-radius:0 15px 15px 0;
+cursor:pointer;
+flex-grow: 1;
+order: 2;
+}
+@media screen and (max-width:400px){
+
+form{
+margin:0;
+}
+input[type=text]{
+width=100%;
+border-radius:5px;
+padding:10px;
+
+}
+input[type=submit]{
+
+border-radius:5px;
+width:100%;
+position:static;
+margin-top:5px;
+padding:10px;
+}
+
+
+
     #right-menu-button {
 		background: #662656;
 		height: 100%;
