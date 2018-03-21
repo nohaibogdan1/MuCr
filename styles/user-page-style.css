@@ -2,7 +2,21 @@
 	width: 300px;
 	min-width: 300px;
 	background: rgba(201, 232, 232,1);
-
 	display: flex;
 	flex-direction: column;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+	#manager-collection-menu>input {
+		margin-top: 20px;
+	}
+
+
+#add-collection-button, #delete-collection-button {
+	margin-top: 10px;
+	height: 20px;
 }
