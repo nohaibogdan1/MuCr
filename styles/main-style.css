@@ -173,6 +173,31 @@ button:active{
 
 	}
 
+div.Country {
+    width: 200px;
+    height: 140px;
+    overflow: auto;
+
+}
+div.Genre {
+    width: 200px;
+    height: 180px;
+    overflow: auto;
+
+}
+
+div.Decade {
+
+    width: 200px;
+    height: 120px;
+    overflow: auto;
+}
+div.Format{
+	width: 200px;
+    height: 120px;
+    overflow: auto;
+}
+
 	  #selected-filters-container {
 			background: #665556;
 			width: 70%;
