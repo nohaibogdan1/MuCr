@@ -171,35 +171,23 @@ button:active{
 		flex-direction: column;
 		min-width: 350px;
 
+
 	}
 
-div.Country {
-    width: 200px;
-    height: 140px;
+div.Country, div.Genre, div.Decade, div.Format {
+    width: 290px;
+    height: 150px;
     overflow: auto;
 
 }
-div.Genre {
-    width: 200px;
-    height: 180px;
-    overflow: auto;
-
+#LeftMenu{
+	background: rgba(201, 232, 232,1);
 }
 
-div.Decade {
 
-    width: 200px;
-    height: 120px;
-    overflow: auto;
-}
-div.Format{
-	width: 200px;
-    height: 120px;
-    overflow: auto;
-}
 
 	  #selected-filters-container {
-			background: #665556;
+			background: rgba(201, 232, 232,1);
 			width: 70%;
 			height: 90%;
 			margin: auto;
