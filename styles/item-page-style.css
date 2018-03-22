@@ -165,6 +165,7 @@ padding:10px;
 		width: 300;
 	}
 
+
 .dropbtn {
     background-color: #D3D3D3;
     color: white;
@@ -210,6 +211,10 @@ padding:10px;
 }
 
 
+
+
+
+
 #horizontal-container {
 	flex-grow: 1;
 
@@ -248,7 +253,6 @@ padding:10px;
 
 				text-align: center; /*center the picture*/
 			}
-			/* set the dimensions of cover fixed in pixels*/
 
 			#details {
 				order: 2;
